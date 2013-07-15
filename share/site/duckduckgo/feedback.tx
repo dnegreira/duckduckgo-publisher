@@ -1,5 +1,5 @@
-	<div id="dest-boxes">
-		<div class="dest">
+  <div id="dest-boxes">
+    <div class="dest">
 			<a href="http://help.duckduckgo.com/">
 				<img src="/assets/logos/logo_feedback.help.png" alt="" />
 				<h2><: l('Help Pages') :></h2>
