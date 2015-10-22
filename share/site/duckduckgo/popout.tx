@@ -1,8 +1,8 @@
-<span class="popout-trig  js-popout <: $trigClass :>">
+<span class="modal-trig  js-popout <: $trigClass :>">
 <: r($link) :>
-<div class="popout-wrap  popout-wrap--<: $dir :> <: $wrapClass :>">
-	<div class="popout popout--<: $dir :> <: if $size { :>popout--<: $size } :> <: $mainClass :> js-popout-main">
-		<div class="popout__body"><: r($content) :></div>
+<div class="modal  modal--popout  modal--popout--<: $dir :> <: if $size { :>modal--popout--<: $size } :> <: $className :> js-popout-el">
+	<div class="modal__box">
+		<div class="modal__body"><: r($content) :></div>
 	</div>
 </div>
 </span>

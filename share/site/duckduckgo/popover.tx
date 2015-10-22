@@ -1,8 +1,8 @@
-<div class="popover js-popover <: $mainClass :>" data-js-selector="<: $linkSelector :>">
-	<a href="#_" class="popover__esc  js-popover-close"></a>
-	<div class="popover__wrap <: $wrapClass :>">
-		<div class="popover__box <: $boxClass :>">
-			<div class="popover__box__content">
+<div class="modal  modal--popover  js-popover  <: $className :>" data-js-selector="<: $linkSelector :>">
+	<a href="#_" class="modal__esc  js-modal-close"></a>
+	<div class="modal__wrap">
+		<div class="modal__box">
+			<div class="modal__body">
 				<: r($content) :>
 			</div>
 		</div>
